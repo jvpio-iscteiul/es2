@@ -1,3 +1,4 @@
+package Stands;
 
 // TODO: Auto-generated Javadoc
 /**
@@ -16,10 +17,10 @@ public class Car {
 	
 	
 	/**
-	 * Instantiates a new car.
+	 * Instantiates a new car. 
 	 *
 	 * @param model the model
-	 * @param year the year
+	 * @param year the year 
 	 */
 	public Car(String model, int year) {
 		this.model = model;
@@ -35,6 +36,10 @@ public class Car {
 		return model;
 	}
 	
+	public void setModel(String model) {
+		this.model = model;
+	}
+
 	/**
 	 * Gets the age in years.
 	 *

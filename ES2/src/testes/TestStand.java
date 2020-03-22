@@ -4,11 +4,15 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-class TestStand {
+import Stands.Stand;
 
+class TestStand {
+	
+	Stand stand; 
+	
 	@Test
 	void test() {
-		fail("Not yet implemented");
+		stand = new Stand ("ola", 1000);
 	}
 
 }

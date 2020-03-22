@@ -1,3 +1,4 @@
+package Stands;
 import java.util.ArrayList;
 
 // TODO: Auto-generated Javadoc
@@ -7,8 +8,8 @@ import java.util.ArrayList;
 public class Stand {
 	
 	/** The name. */
-	private String name;
-	
+	private String name; 
+	 
 	/** The car list. */
 	private ArrayList<Car> carList;
 	

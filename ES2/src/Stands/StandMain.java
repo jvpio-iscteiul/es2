@@ -1,4 +1,4 @@
-
+package Stands;
 // TODO: Auto-generated Javadoc
 /**
  * The Class StandMain.
