@@ -10,8 +10,12 @@ import org.junit.platform.suite.api.*;
 /**
  * The Class AllTests.
  */
+
+
 @RunWith(JUnitPlatform.class)
 @SuiteClasses({TestCar.class, TestStand.class, TestMain.class })
 public class AllTests {
 
+	
+	
 } 

@@ -15,12 +15,14 @@ class TestStand {
 	/** The stand. */
 	Stand stand; 
 	
+	
 	/**
 	 * Test.
 	 */
 	@Test
 	void test() {
 		stand = new Stand ("ola", 1000);
+		
 	}
 
 }
